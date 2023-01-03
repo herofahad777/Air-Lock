@@ -1,0 +1,125 @@
+{
+  "id_map": {
+    "GUI": 1
+  },
+  "mod_elements": [
+    {
+      "name": "Airlockcontroller",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      },
+      "registry_name": "airlockcontroller"
+    },
+    {
+      "name": "Airlockcontrollerblock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "airlockcontrollerblock"
+    },
+    {
+      "name": "Airlockframe",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "airlockframe"
+    },
+    {
+      "name": "Airlock",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "airlock"
+    },
+    {
+      "name": "Structurecheck",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "structurecheck",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "closeairlock",
+      "files": [
+        "closeairlock"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "openairlock",
+      "files": [
+        "openairlock"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.openairlock": "",
+      "subtitles.closeairlock": "",
+      "tile.airlockframe.name": "Airlockframe",
+      "tile.airlockcontrollerblock.name": "Airlockcontrollerblock",
+      "itemGroup.tabairlock": "Airlock"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "air_lock",
+    "modName": "Air Lock",
+    "version": "1.0.0",
+    "author": "shagu, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.airlock",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

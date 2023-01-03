@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "air_lock:blocks/air_lock_frame",
+    "up": "air_lock:blocks/air_lock_frame",
+    "north": "air_lock:blocks/air_lock_controller",
+    "east": "air_lock:blocks/air_lock_controller",
+    "south": "air_lock:blocks/air_lock_controller",
+    "west": "air_lock:blocks/air_lock_controller",
+    "particle": "air_lock:blocks/air_lock_frame"
+  }
+}

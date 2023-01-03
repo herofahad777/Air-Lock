@@ -1,0 +1,83 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 250,
+    "height": 190,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "  ",
+          "width": 35,
+          "height": 20,
+          "name": "  ",
+          "x": 98,
+          "y": 66
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "1",
+          "width": 30,
+          "height": 20,
+          "name": "1",
+          "x": 141,
+          "y": 66
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "2",
+          "width": 30,
+          "height": 20,
+          "name": "2",
+          "x": 141,
+          "y": 88
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "5",
+          "width": 30,
+          "height": 20,
+          "name": "5",
+          "x": 141,
+          "y": 110
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "10",
+          "width": 35,
+          "height": 20,
+          "name": "10",
+          "x": 140,
+          "y": 132
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "open on player distance",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "open on player distance",
+          "x": 94,
+          "y": 42
+        }
+      }
+    ]
+  }
+}

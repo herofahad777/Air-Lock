@@ -1,0 +1,20 @@
+{
+  "closeairlock": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "air_lock:closeairlock",
+        "stream": false
+      }
+    ]
+  },
+  "openairlock": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "air_lock:openairlock",
+        "stream": false
+      }
+    ]
+  }
+}

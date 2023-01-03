@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Airlock",
+    "icon": {
+      "value": "CUSTOM:Airlockframe"
+    },
+    "showSearch": true
+  }
+}

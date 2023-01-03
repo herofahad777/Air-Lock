@@ -1,0 +1,5 @@
+subtitles.openairlock=
+subtitles.closeairlock=
+tile.airlockframe.name=Airlockframe
+tile.airlockcontrollerblock.name=Airlockcontrollerblock
+itemGroup.tabairlock=Airlock
